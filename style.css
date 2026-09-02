@@ -1,0 +1,140 @@
+/* MedKeep legal pages. Type is deliberately large: the audience is people
+   managing several daily medicines, often 55+, reading on a phone. */
+:root {
+  --teal: #0e4c4a;
+  --teal-deep: #083734;
+  --bg: #f6f6fa;
+  --surface: #ffffff;
+  --text: #19192b;
+  --text-secondary: #4a4d61;
+  --border: #e5e6ed;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 18px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: var(--teal);
+  color: #fff;
+  padding: 40px 24px 44px;
+}
+
+.wrap { max-width: 720px; margin: 0 auto; }
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.14);
+  display: grid;
+  place-items: center;
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.brand-name {
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-size: 26px;
+}
+
+h1 {
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.15;
+  margin: 28px 0 8px;
+  letter-spacing: -0.01em;
+}
+
+header p { margin: 0; color: rgba(255, 255, 255, 0.78); font-size: 16px; }
+
+main { padding: 40px 24px 72px; }
+
+h2 {
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.25;
+  margin: 44px 0 12px;
+}
+
+h2:first-of-type { margin-top: 0; }
+
+p, li { color: var(--text-secondary); }
+
+p { margin: 0 0 16px; }
+
+ul { margin: 0 0 16px; padding-left: 22px; }
+
+li { margin-bottom: 8px; }
+
+strong { color: var(--text); font-weight: 600; }
+
+a { color: var(--teal); }
+
+a:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+
+.lede {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px 24px 8px;
+  margin-bottom: 36px;
+}
+
+.lede p:last-child { margin-bottom: 16px; }
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 28px 24px 56px;
+  color: #6b6e80;
+  font-size: 15px;
+}
+
+footer a { color: #6b6e80; }
+
+.nav { margin-top: 18px; }
+
+.nav a { margin-right: 20px; font-size: 16px; }
+
+.cards { display: grid; gap: 14px; margin-top: 8px; }
+
+.card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px 24px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover { border-color: #cdd0db; }
+
+.card h2 { margin: 0 0 6px; font-size: 24px; }
+
+.card p { margin: 0; }
+
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  h1 { font-size: 34px; }
+  h2 { font-size: 25px; }
+}
