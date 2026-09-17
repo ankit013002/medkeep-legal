@@ -5,8 +5,8 @@ and adherence log by PETALFORM LLC.
 
 Served with GitHub Pages:
 
-- Privacy Policy — https://ankit013002.github.io/medkeep-legal/privacy.html
-- Terms of Service — https://ankit013002.github.io/medkeep-legal/terms.html
+- Privacy Policy: https://ankit013002.github.io/medkeep-legal/privacy.html
+- Terms of Service: https://ankit013002.github.io/medkeep-legal/terms.html
 
 The app links to these from Settings, and the App Store listing uses the privacy
 policy URL. Update the "Last updated" date in the page whenever the substance
